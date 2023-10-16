@@ -1,6 +1,7 @@
 # ConF: A deep learning model for Noncoding RNA Families Prediction
 The code will be coming soon.
-![Uploading image.png…]()
+![image](https://github.com/FROZEN160/RNA-Family/assets/80303403/a9fbab9b-2362-44ef-af68-67ae7b61a99f)
+
 
 
 
