@@ -9,7 +9,6 @@ Traditional experimental methods for identifying NcRNA families are often time-c
 
 Experimental evaluations conducted on a widely used dataset demonstrate the outstanding performance of the ConF model, including accuracy, sensitivity, and other performance metrics. Overall, the ConF model represents a promising solution for accurate and efficient prediction of NcRNA families, overcoming the limitations of traditional experimental and computational methods. The code for this work is publicly available.
 
-
 ## Environment Setup  
 tensorflow-gpu               2.9.1
 
@@ -25,6 +24,8 @@ numpy                        1.23.0
 
 matplotlib                   3.5.2
 
+## User Guide
+We have already uploaded the dataset and code used to this link. You just need to change the data reading address in the code to apply it.
 
 ## Personal Email Address
 If you have any questions regarding the paper, you can contact us by sending an email to "frozen@mail.dlut.edu.cn".
