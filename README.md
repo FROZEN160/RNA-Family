@@ -26,7 +26,7 @@ matplotlib                   3.5.2
 ## running OS
 windows 10 or 11 (x64) 
 ## User Guide
-This article contains two folders, with folder "ConF" containing pre-segmented datasets for model performance comparison. Folder "random 10fold" includes datasets split using a random 10-fold cross-validation, allowing testing for model stability. Users should ensure that the corresponding Python files and data are placed in the same directory to ensure the proper functioning of the program.
+This article contains two folders, with folder "ConF" containing pre-segmented datasets for model performance comparison. Folder "Random 10fold" includes datasets split using a random 10-fold cross-validation, allowing testing for model stability. Users should ensure that the corresponding Python files and data are placed in the same directory to ensure the proper functioning of the program.
 
 ## Personal Email Address
 If you have any questions regarding the paper, you can contact us by sending an email to "frozen@mail.dlut.edu.cn".
