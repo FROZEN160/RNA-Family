@@ -25,7 +25,7 @@ numpy                        1.23.0
 matplotlib                   3.5.2
 
 ## User Guide
-We have already uploaded the dataset and code used to this link. You just need to change the data reading address in the code to apply it.
+You just need to change the data reading address in the code to apply it.
 
 ## Personal Email Address
 If you have any questions regarding the paper, you can contact us by sending an email to "frozen@mail.dlut.edu.cn".
