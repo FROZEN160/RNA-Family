@@ -12,11 +12,17 @@ Experimental evaluations conducted on a widely used dataset demonstrate the outs
 
 ## Environment Setup  
 tensorflow-gpu               2.9.1
+
 pandas                       1.4.3
+
 keras                        2.9.0
+
 Keras-Preprocessing          1.1.2
+
 sklearn                      0.0
+
 numpy                        1.23.0
+
 matplotlib                   3.5.2
 
 
