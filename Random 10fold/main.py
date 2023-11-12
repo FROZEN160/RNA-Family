@@ -66,7 +66,7 @@ def machine_learning(pro_x_train, pro_y_train, pro_x_test, pro_y_test, number):
     pro_x_data  = pd.concat([pro_x_train,pro_x_test],ignore_index= True )
     pro_y_data  = pd.concat([y_train,y_test],ignore_index= True )
 
-    
+
     # Create a corresponding label using one-hot encoding for each RNA sequence
     for i in range(0, len(pro_y_data)):
 
@@ -383,6 +383,7 @@ loop = 0
 # Generate a permutation of the indices
 indices = np.random.permutation(len(features))
 
+
 shuffled_features = features[indices]
 shuffled_labels = labels[indices]
 
@@ -391,10 +392,9 @@ shuffled_labels = labels[indices]
 kf_outer = KFold(n_splits=10, shuffle=False)
 
 for fold_idx, (train_indices, test_indices) in enumerate(kf_outer.split(shuffled_features)):
-    train_features, test_features = shuffled_features[train_indices], shuffled_features[test_indices]
-    train_labels, test_labels = shuffled_labels[train_indices], shuffled_labels[test_indices]
-    
+    train_features, test_features = shuffled_features.iloc[train_indices], shuffled_features.iloc[test_indices]
+    train_labels, test_labels = shuffled_labels.iloc[train_indices], shuffled_labels.iloc[test_indices]
+
     # Invoke the machine_learning function for training and evaluation
-    loop
     machine_learning(train_features, train_labels, test_features, test_labels, loop)
     loop += 1
