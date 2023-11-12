@@ -380,11 +380,12 @@ labels = dataset[2][:]
 
 loop = 0
 
-# Randomly shuffle the order of the data
-shuffled_indices = list(range(len(features)))
-random.shuffle(shuffled_indices)
-shuffled_features = features[shuffled_indices]
-shuffled_labels = labels[shuffled_indices]
+# Generate a permutation of the indices
+indices = np.random.permutation(len(features))
+
+shuffled_features = features[indices]
+shuffled_labels = labels[indices]
+
 
 # 10 fold cross validation
 kf_outer = KFold(n_splits=10, shuffle=False)
